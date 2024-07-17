@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: openyurt/raven-agent
+  repository: registry.cn-beijing.aliyuncs.com/li_xx/openyurt_raven-agent
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 0.4.2
