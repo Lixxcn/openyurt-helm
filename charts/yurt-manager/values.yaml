@@ -11,9 +11,9 @@ replicaCount: 1
 nameOverride: ""
 
 image:
-  registry: openyurt
-  repository: yurt-manager
-  tag: v1.4.0
+  registry: registry.cn-beijing.aliyuncs.com/li_xx
+  repository: openyurt_yurt-manager
+  tag: v1.5.0
   pullSecrets: []
   # pullSecrets:
   #   - name: myRegistryKeySecretName
